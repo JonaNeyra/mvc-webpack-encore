@@ -1,0 +1,21 @@
+{
+    "name": "jneyra/mvc-webpack-encore",
+    "description": "Twig Extension compatible with Symfony Webpack Encore (Symfony2)",
+    "type": "library",
+    "require": {
+	    "php": ">=5.5",
+	    "symfony/dependency-injection": "~2.4",
+        "twig/extensions": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jneyra\\MvcWebpackEncore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonathan Jorge Neyra Nieves",
+            "email": "neyranievesjonathan@gmail.com"
+        }
+    ]
+}
