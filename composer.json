@@ -17,5 +17,6 @@
             "name": "Jonathan Jorge Neyra Nieves",
             "email": "neyranievesjonathan@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
