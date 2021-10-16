@@ -1,6 +1,6 @@
 {
     "name": "jneyra/mvc-webpack-encore",
-    "description": "Twig Extension compatible with Symfony Webpack Encore (Symfony2)",
+    "description": "Twig Extension compatible with Symfony Webpack Encore (Symfony2), Stable",
     "type": "library",
     "require": {
 	    "php": ">=5.5",
