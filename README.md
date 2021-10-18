@@ -27,7 +27,6 @@ These commands shouldn't display an error if there are no incompatibilities with
 Finally, add the following configuration in ```parameters.yml``` and ```services.yml``` inside the project.
 
 ``` yaml
-services:
 parameters:
     web_dir: '%kernel.root_dir%/../web' # You need to define the location of your public folder
     webpack_twig_tag: 'webpack_asset' # You need to add a new asset tag to use in your 'twig' that imports the JS code
@@ -80,3 +79,28 @@ https://symfony.com/doc/current/frontend/encore/installation.html#installing-enc
 Finally, Configure your Webpack File with your configs in your project
 
 https://symfony.com/doc/current/frontend/encore/installation.html#creating-the-webpack-config-js-file
+
+### Transpile Webpack Modes
+
+You need to install Webpack and compile your files, the compiled files will be saved in the public folder
+
+``` bash
+$ npm i
+```
+> **Webpack Install**, this command runs once to install all necessary modules
+
+``` bash
+$ npm run dev
+```
+> **Developer mode**, this command runs once and after the compilation output the bach is finished
+
+``` bash
+$ npm run watch
+```
+> **Watch mode**, after the compilation output the bach will continue "listening" for the files changes
+
+``` bash
+$ npm run prod
+```
+> *Production mode**, compiles applying clean minification on the code ready to production deploy
+
